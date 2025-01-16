@@ -4,7 +4,7 @@
 
 [project]
 name = "ncc-feedstock"
-version = "3.45.0"
+version = "3.45.2"
 description = "Pixi configuration for conda-forge/ncc-feedstock"
 authors = ["@conda-forge/ncc"]
 channels = ["conda-forge"]
