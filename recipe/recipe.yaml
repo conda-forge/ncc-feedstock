@@ -1,5 +1,5 @@
 context:
-  version: "0.38.3"
+  version: "0.38.4"
 
 package:
   name: ncc
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/@vercel/ncc/-/ncc-${{ version }}.tgz
-  sha256: c9f9d715af74152fd248220a43a2a09868fdab68f7438dd558bbb69aa487bb86
+  sha256: 288fd3538e04a96df50fea256e849ada51c9dfcf4541a6f637c4b6eb5facb845
 
 build:
   number: 0
