@@ -10,7 +10,7 @@ source:
   sha256: 288fd3538e04a96df50fea256e849ada51c9dfcf4541a6f637c4b6eb5facb845
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
 
 tests:
   - script:
-      - ncc --help 2>&1 | grep -q "Usage: "ncc <cmd> <opts>\""
+      - "ncc --help 2>&1 | grep -q \"Usage: \"ncc <cmd> <opts>\\\"\""
 
 about:
   license: MIT
